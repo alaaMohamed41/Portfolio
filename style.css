@@ -457,7 +457,7 @@ footer{
 .lolbt{
     width: 27%;
 }
-@media (max-width:725px) {
+@media (max-width:768px) {
     nav{
         display: none;
     }
@@ -467,27 +467,35 @@ footer{
     .about{
         display: flex;
         flex-direction: column;
-        height: 55svh;
+        height: 75svh;
+        padding: 1em;
+        position: relative;
+        right: 0.8em;
     } 
+    .p3{
+        width: 100%;
+    }
     .first{
         display: flex;
         flex-direction: column;
         gap: 1em;
     }
     .sec1{
-        height: 90svh;
+        height: 120svh;
     }
     .ul3{
         margin-right: 6.5em;
+        width: 98%;
+        padding: 0.5em ;
     }
     main{
         height: 70vh;
     }
     #projects{
-        height: 220vh;
+        height: 250vh;
     }
     #contact{
-        height: 90vh;
+        height: 110vh;
     }
     .container{
         display: flex;

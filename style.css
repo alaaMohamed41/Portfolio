@@ -467,7 +467,7 @@ footer{
     .about{
         display: flex;
         flex-direction: column;
-        height: 150svh;
+        height: 55svh;
     } 
     .first{
         display: flex;
@@ -475,18 +475,27 @@ footer{
         gap: 1em;
     }
     .sec1{
-        height: 200svh;
+        height: 90svh;
     }
     .ul3{
         margin-right: 6.5em;
     }
     main{
-        height: 100vh;
+        height: 70vh;
+    }
+    #projects{
+        height: 220vh;
+    }
+    #contact{
+        height: 90vh;
     }
     .container{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .skills{
+        height: 70vh;
     }
     .contact{
         height: 210vh;
